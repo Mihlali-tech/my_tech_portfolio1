@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Portfolio</title>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<header>
+<h1>Mihlali Ncayo | Full-stack Developer</h1>
+<nav>
+<a href="portfolio.html">Portfolio</a>
+<a href="#portfolio">Personal Pitch</a>
+</nav>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>Hello! I’m Mihlali, a passionate software developer with a love for turning ideas into beautiful, functional code. I enjoy building web apps and exploring the world of full-stack development. Please navigate to the Portfolio section for more details on the projects that I have done.</p>
+</section>
+
+<img src="images/profile.jpg.jpeg" alt="My uploaded image" width="300">
+ 
+<div class="dropdown-section">
+<div class="dropdown-header">Frontend Development:</div>
+<div class="dropdown-content">
+    <ul>
+        <li>HTML & CSS</li>
+        <li>Frameworks: React.js and Angular</li>
+    </ul>
+</div>
+</div>
+
+<div class="dropdown-section">
+<div class="dropdown-header">Backend Development:</div>
+<div class="dropdown-content">
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C#</li> 
+    </ul>
+</div>
+</div>
+
+<div class="dropdown-section">
+<div class="dropdown-header">Database:</div>
+<div class="dropdown-content">
+    <ul>
+        <li>SQL</li>
+        <li>Firebase</li>
+    </ul>
+</div>
+</div>
+
+<div class="dropdown-section">
+<div class="dropdown-header">Deployment:</div>
+  <div class="dropdown-content">    
+    <ul>
+        <li>Version Control: Git, Github, GitLab</li>
+    </ul>
+  </div>
+  </div>
+
+    <div class="dropdown-section">
+    <div class="dropdown-header">Soft Skills:</div>
+    <div class="dropdown-content">
+        <ul>
+            <li>Agile methodology</li>
+            <li>Debugging & testing</li>
+            <li>Problem-solving & critical thinking</li>
+            <li>Communication & team collaboration</li>
+            <li>Wireframing & designing</li>
+        </ul>
+        </div>
+    </div>
+
+          <script>
+            // Make dropdowns toggle on click
+            const sections = document.querySelectorAll('.dropdown-section');
+        
+            sections.forEach(section => {
+              section.querySelector('.dropdown-header').addEventListener('click', () => {
+                section.classList.toggle('active');
+              });
+            });
+          </script>
+
+<p style="text-align: center;">
+    <a href="resume.html">See Resume (CV)</a>
+  </p>
+
+<footer>
+<p>Made with ❤️ by Bapha</p>
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>
